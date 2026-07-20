@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/voice",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Show current voice profile (Calm Female)"
+            }
+          }
+        ],
+        "send": {
+          "text": "/voice"
+        }
+      }
+    ]
+  }
+]
